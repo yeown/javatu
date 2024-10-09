@@ -35,23 +35,4 @@ public class Car {
         return getGas();
     }
 }
-/*package h2;
-
-public class Car {
-    public Car(String carName, int gas) {
-        this.carName = carName;
-        this.gas = gas;
-    }
-    int gas;
-    String carName;
-
-    int move(int gas){
-        this.gas= gas-5;
-        return this.gas;
-    }
-    int refuel(int gas){
-        this.gas = gas + 10;
-        return this.gas;
-    }
-}*/
 
